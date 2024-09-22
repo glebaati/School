@@ -21,6 +21,7 @@ class Student:
 
     def __ne__(self, other):
         return not self.__eq__(other)
+    
     def add_subject(self, subject):
         self.subjects.append(subject)
         self.grades[subject] = []
