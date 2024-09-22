@@ -33,3 +33,4 @@ try:
     group.kick_student(student2)
 except Group.StudentAbsenceError as e:
     print(e)
+    
